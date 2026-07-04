@@ -1,0 +1,11 @@
+body > h1 {
+    text-align: center;
+    text-decoration: dashed;
+    font-weight: bolder;
+    color: red;
+    font-weight: 700;
+    font-size: 3.5rem;
+    background-color: rgb(8, 231, 57);
+}
+
+
