@@ -1,11 +1,171 @@
-body > h1 {
-    text-align: center;
-    text-decoration: dashed;
-    font-weight: bolder;
-    color: red;
-    font-weight: 700;
-    font-size: 3.5rem;
-    background-color: rgb(8, 231, 57);
+/* -------------------- */
+/* GENERAL */
+/* -------------------- */
+
+
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    font-family: "Poppins", sans-serif;
+}
 
+/* -------------------- */
+/* HEADER */
+/* -------------------- */
+
+body > h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    background: linear-gradient(90deg, #0F172A, #2563EB);
+    letter-spacing: 1px;
+}
+
+/* -------------------- */
+/* SECTION BACKGROUND */
+/* -------------------- */
+
+.bg-color {
+    background-color: #F8FAFC;
+}
+
+/* -------------------- */
+/* HEADINGS */
+/* -------------------- */
+
+h2 {
+    display: inline-block;
+    background: #06B6D4;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: #0F172A;
+    font-weight: 600;
+}
+
+/* -------------------- */
+/* ABOUT */
+/* -------------------- */
+
+.about-img {
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.about-me {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* -------------------- */
+/* CARDS */
+/* -------------------- */
+
+.card-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* -------------------- */
+/* PROJECTS */
+/* -------------------- */
+
+.projects {
+    display: inline-block;
+}
+
+/* -------------------- */
+/* BUTTONS */
+/* -------------------- */
+
+.btn-primary {
+    background-color: #2563EB;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1D4ED8;
+    transform: scale(1.05);
+}
+
+/* -------------------- */
+/* LISTS */
+/* -------------------- */
+
+.list-unstyled li {
+    margin-bottom: 12px;
+}
+
+/* -------------------- */
+/* FOOTER */
+/* -------------------- */
+
+footer {
+    background: linear-gradient(90deg, #0F172A, #2563EB);
+    color: white;
+    padding: 20px 40px;
+}
+
+footer span {
+    color: white !important;
+}
+
+footer a {
+    color: white !important;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #06B6D4 !important;
+    transform: scale(1.2);
+}
+
+/* -------------------- */
+/* CONTAINERS */
+/* -------------------- */
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
