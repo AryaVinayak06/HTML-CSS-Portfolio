@@ -2,7 +2,6 @@
 /* GENERAL */
 /* -------------------- */
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -17,6 +16,13 @@ body {
 /* -------------------- */
 /* HEADER */
 /* -------------------- */
+
+
+.custom-border {
+  display: inline-block;
+  border-bottom: 3px solid #5c6065; /* Increase thickness */
+  padding-bottom: 2px;
+}
 
 body > h1 {
     text-align: center;
@@ -40,10 +46,13 @@ body > h1 {
 /* -------------------- */
 /* HEADINGS */
 /* -------------------- */
-
+.main-heading {
+    border-bottom: 12px solid #06B6D4;
+    padding-bottom: 12px;
+}
 h2 {
     display: inline-block;
-    background: #06B6D4;
+    background: #1100ff;
     color: white;
     padding: 8px 18px;
     border-radius: 8px;
@@ -79,6 +88,8 @@ h4 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background: linear-gradient(135deg,#2563EB,#06B6D4);
+    height:420px;
 }
 
 .card {
@@ -119,7 +130,7 @@ h4 {
 }
 
 .btn-primary:hover {
-    background-color: #1D4ED8;
+    background-color: #043fe3;
     transform: scale(1.05);
 }
 
