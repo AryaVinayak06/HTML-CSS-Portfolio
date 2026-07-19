@@ -60,6 +60,7 @@ h2 {
     margin-bottom: 25px;
 }
 
+
 h4 {
     color: #0F172A;
     font-weight: 600;
@@ -78,6 +79,10 @@ h4 {
     font-size: 1.2rem;
     line-height: 1.8;
     text-align: justify;
+}
+
+.left-bc {
+    font-size: xx-large;
 }
 
 /* -------------------- */
